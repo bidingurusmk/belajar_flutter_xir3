@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dasar_xir3/TextWidget.dart';
+import 'package:flutter_dasar_xir3/dialog.dart';
 import 'package:flutter_dasar_xir3/gambar.dart';
+import 'package:flutter_dasar_xir3/selection.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: GambarWidget(),
+      home: SelectWidget(),
     );
   }
 }
