@@ -28,14 +28,25 @@ class ContainerWidget extends StatelessWidget {
             ),
           ),
           Container(
-              height: MediaQuery.of(context).size.height - 130,
-              alignment: Alignment.bottomRight,
-              child: Text(
-                'Semangat Belajar',
-                style: TextStyle(
-                  fontSize: 20,
-                ),
-              )),
+            margin: EdgeInsets.all(50),
+            height: 200,
+            width: 200,
+            alignment: Alignment.center,
+            color: Colors.amber[900],
+            child: Text(
+              "Semangat Belajar",
+              style: TextStyle(fontSize: 20, color: Colors.white),
+            ),
+          ),
+          Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: NetworkImage(
+                    'https://pixnio.com/free-images/2017/03/07/2017-03-07-10-59-39-900x600.jpg',
+                  ),
+                  fit: BoxFit.cover),
+            ),
+          )
         ],
       ),
     );
