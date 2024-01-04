@@ -3,6 +3,7 @@ import 'package:flutter_dasar_xir3/TextWidget.dart';
 import 'package:flutter_dasar_xir3/container.dart';
 import 'package:flutter_dasar_xir3/dialog.dart';
 import 'package:flutter_dasar_xir3/gambar.dart';
+import 'package:flutter_dasar_xir3/news.dart';
 import 'package:flutter_dasar_xir3/selection.dart';
 import 'package:flutter_dasar_xir3/tanggal.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ContainerWidget(),
+      home: NewsWidget(),
     );
   }
 }
